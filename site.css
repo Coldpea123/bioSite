@@ -108,3 +108,7 @@ a:hover {
 a:visited {
     color: darkblue;
 }
+
+li {
+    text-align: left;
+}
