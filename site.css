@@ -1,6 +1,7 @@
 html {
     font-family: 'Alegreya', serif;
     font-family: 'Fira Sans', sans-serif;
+    background: linear-gradient(to right,  #1f8abf, #ffffff);
 }
 
 body {
@@ -9,6 +10,27 @@ body {
 
 #landing {
     background: linear-gradient(to right,  #1f8abf, #ffffff);
+}
+
+#navbar {
+    font-family: 'Alegreya', serif;
+    overflow: hidden;
+    background-color: gray;
+    border-bottom: solid, 15px, black;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: dimgray;
+    color: green;
 }
 
 #about {
@@ -71,30 +93,22 @@ caption {
     float: left;
     width: 30%;
     border: 2px;
-    border-style: groove;
-    border-color: white;
     padding: 25px;
-    margin-left: 10%;
 }
 
 #right {
     text-align: center;
     float: right;
-    width: 30%;
-    border-radius: 1%;
-    border-style: groove;
-    border-color: white;
     padding: 25px;
-    margin-right: 10%;
 }
 
 #footer {
+    background-color: #1f8abf;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 25px;
 }
 
 a {
